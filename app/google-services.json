@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "597380771713",
+    "firebase_url": "https://plameca-fde38.firebaseio.com",
+    "project_id": "plameca-fde38",
+    "storage_bucket": "plameca-fde38.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:597380771713:android:d740390fce159db6",
+        "android_client_info": {
+          "package_name": "com.junction.healthtech"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "597380771713-vb9jbabkin1128g9rcmseukqvavchknf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDl1J8L8MM9pmP7XU9kcC-8-NU8JPutwZM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

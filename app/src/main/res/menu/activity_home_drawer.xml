@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/treatment"
+            android:title="Treatment" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/location"
+            android:title="Location" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/patient_info"
+            android:title="Patient info" />
+        <item
+            android:id="@+id/nav_manage2"
+            android:icon="@drawable/contact"
+            android:title="Contact" />
+</menu>
