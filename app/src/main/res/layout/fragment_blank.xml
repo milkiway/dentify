@@ -1,7 +1,29 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.junction.healthtech.BlankFragment">
-    
-</FrameLayout>
+
+    <!--<TextView-->
+        <!--android:id="@+id/hospitalSupportTitle"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Contact hospital:"/>-->
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="+3581234567"/>-->
+
+    <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="2dp"-->
+        <!--android:background="@color/grey_200"-->
+        <!--android:layout_marginBottom="16dp" />-->
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"/>-->
+    <!--<TextView-->
+        <!--android:id="@+id/hospitalSupportTitle"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"/>-->
+</LinearLayout>

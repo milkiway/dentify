@@ -73,7 +73,7 @@ public class LocationFragment extends Fragment {
                     return;
                 }
                 if(geofence.getName().equals("id4")) {
-                    textView.setText("Nice, wait for your appoitment!");
+                    textView.setText("Nice, wait for your appointment!");
                     return;
 
                 }

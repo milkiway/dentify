@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.junction.healthtech.PrescriptionFragment">
+
+<com.facebook.drawee.view.SimpleDraweeView
+    android:id="@+id/prescr"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:actualImageUri="https://www.dropbox.com/s/g70epd9noufi1iv/rxPrint.png?dl=1"
+    app:actualImageScaleType="fitEnd"
+    app:viewAspectRatio="1.33"
+    android:layout_centerVertical="true" />
+
+    <ImageButton
+        android:layout_above="@+id/prescr"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="32dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?selectableItemBackground"
+        app:srcCompat="@drawable/ic_add_alarm_black_24dp"/>
+
+</RelativeLayout>

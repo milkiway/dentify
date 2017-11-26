@@ -2,28 +2,12 @@ package com.junction.healthtech;
 
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.design.widget.BottomNavigationView;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.Toolbar;
-import android.view.View;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.widget.LinearLayout;
 
-import com.junction.healthtech.adapters.TimelineAdapter;
 import com.junction.healthtech.databinding.ActivityHomeBinding;
-import com.junction.healthtech.models.TimelineItem;
-import com.junction.healthtech.utils.ItemViewHolderSimpleClick;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class HomeActivity extends AppCompatActivity {
 
@@ -63,11 +47,11 @@ public class HomeActivity extends AppCompatActivity {
                 case 0:
                     return new HomeFragment();
                 case 1:
-                    return new BlankFragment();
+                    return new PrescriptionFragment();
                 case 2:
                     return new LocationFragment();
                 case 3:
-                    return new BlankFragment();
+                    return new ProfileFragment();
                 case 4:
                     return new BlankFragment();
                 default:

@@ -27,7 +27,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBGHTK9x3wtVYwKq67hfOKNyLLL5gM_R3s" />
 
+        <receiver android:name="io.proximi.proximiiodemo.BackgroundListener"  android:exported="false">
+            <intent-filter>
+                <action android:name="io.proximi.proximiiolibrary.action.POSITION"/>
+                <action android:name="io.proximi.proximiiolibrary.action.OUTPUT"/>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>
